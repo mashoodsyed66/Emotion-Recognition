@@ -41,8 +41,11 @@ This approach provided immediate insights into the model's ability to recognize 
 ### Results
 You can view the screenshots of the model's predictions on custom images below:
 
-[Insert screenshots here]
+![ANGRY](https://github.com/mashoodsyed66/Emotion-Recognition/assets/65015378/ba485972-fd7a-4c90-91c6-548113648f9a)
+![HAPPY](https://github.com/mashoodsyed66/Emotion-Recognition/assets/65015378/44f187d4-8201-4fcc-b197-380b8cc87fc9)
+![NEUTRAL](https://github.com/mashoodsyed66/Emotion-Recognition/assets/65015378/19253380-5deb-478b-b295-082ccc453255)
+![SAD](https://github.com/mashoodsyed66/Emotion-Recognition/assets/65015378/2d8e3a4f-785f-4c4e-87b4-f4cc9642bce9)
 
-###Summary
+### Summary
 The Emotion Recognition project involved preprocessing the FER dataset, including encoding the target variable, applying data augmentation techniques, implementing dropout regularization, and training a CNN model for emotion classification. 
 The trained model achieved satisfactory performance in accurately recognizing and classifying human emotions from facial expressions, demonstrating the effectiveness of the employed techniques in handling the complexities of image data.
