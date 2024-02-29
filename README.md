@@ -31,23 +31,18 @@ To prevent overfitting, dropout regularization was implemented during training. 
 
 Additionally, early stopping was employed to monitor the validation loss and stop training if there was no improvement after a specified number of epochs, restoring the model weights to those from the epoch with the best validation performance.
 
-### Model Evaluation and Inference
+### Real-Time Emotion Recognition with Webcam
+After training the model, we first evaluated its performance on the test dataset to assess accuracy and generalization.
 
-After training the model, we evaluated its performance and made predictions using the following steps:
+After that we implemented real-time emotion recognition using the webcam, where we continuously captured frames, extracted faces, and processed them according to the model's requirements. The processed images were then fed into the trained model to obtain real-time predictions, which were displayed directly on the webcam feed.
 
-- **Model Evaluation**: We assessed the trained model's performance on the test dataset to understand its accuracy and how well it generalizes to unseen data.
+This approach provided immediate insights into the model's ability to recognize emotions in dynamic environments, showcasing its practical utility in interactive applications.
 
-- **Prediction Generation**: We used the trained model to generate predictions on a sample of test images. This allowed us to analyze how accurately the model classified individual images compared to the actual labels.
-
-- **Inference on Custom Images**: Additionally, we tested the model's performance on custom images captured from a camera. By passing these images through the model, we gained insights into its ability to recognize emotions in real-world scenarios.
-
-These evaluation and inference steps provided valuable information about the model's effectiveness and its practical utility in recognizing emotions from facial expressions.
-
-Results
+### Results
 You can view the screenshots of the model's predictions on custom images below:
 
 [Insert screenshots here]
 
-Summary
+###Summary
 The Emotion Recognition project involved preprocessing the FER dataset, including encoding the target variable, applying data augmentation techniques, implementing dropout regularization, and training a CNN model for emotion classification. 
 The trained model achieved satisfactory performance in accurately recognizing and classifying human emotions from facial expressions, demonstrating the effectiveness of the employed techniques in handling the complexities of image data.
