@@ -49,3 +49,6 @@ You can view the screenshots of the model's predictions on custom images below:
 ### Summary
 The Emotion Recognition project involved preprocessing the FER dataset, including encoding the target variable, applying data augmentation techniques, implementing dropout regularization, and training a CNN model for emotion classification. 
 The trained model achieved satisfactory performance in accurately recognizing and classifying human emotions from facial expressions, demonstrating the effectiveness of the employed techniques in handling the complexities of image data.
+
+
+Note: Model could not get uploaded because it's larger than 25mb
